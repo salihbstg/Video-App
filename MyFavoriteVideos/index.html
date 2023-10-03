@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Films | Salihcan Bastug</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row" style="height: 100vh;">
+            <div class="col-lg-2 bg-secondary">
+                <div id="links" class="links d-flex flex-column align-items-center py-4" style="overflow:visible;">
+                </div>
+            </div>
+            <div class="col-lg-8 d-flex align-items-center bg-black">
+                <iframe  id="frame" src="" frameborder="1"></iframe>
+            </div>
+            <div class="col-lg-2 bg-secondary py-3 d-flex flex-column justify-content-between">
+                <div>
+                    <input type="text" id="url" class="form-control" placeholder="URL">
+                    <input type="text" id="urlName" placeholder="Name" class="form-control mt-2">
+                    <button id="btn" class="w-100 btn btn-primary mt-3">Save</button>
+                </div>
+                <div>
+                    <input type="text" id="deleteText" class="form-control" placeholder="Silinecek olanın adını yazınız">
+                    <button id="deleteBtn" class="btn btn-danger w-100 mt-3">Sil</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="source.js"></script>
+    <script src="ui.js"></script>
+    <script src="storage.js"></script>
+    <script src="project.js"></script>
+</body>
+</html>
